@@ -61,6 +61,7 @@ jobs:
               test-lock-devices.sh test-lock-exclusive.sh
               test-commit-lock-fail.sh test-transaction.sh
               test-device-groups.sh test-device-state.sh
+              test-commit-closed-devices.sh test-commit-no-services.sh
           - group: service-python
             pattern: >-
               test-python-mini.sh test-python-service.sh
